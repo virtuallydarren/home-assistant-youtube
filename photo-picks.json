@@ -1,0 +1,37 @@
+{
+  "updated": "2026-10-11",
+  "area": "Poole/Dorset, UK",
+  "radius_miles": 50,
+  "picks": [
+    {
+      "icon": "🦅",
+      "title": "AUTUMN SAFARI CRUISE",
+      "location": "Poole Quay",
+      "date": "WED 14 OCT",
+      "time": "09:00–12:00",
+      "why": "Autumn migrants, raptors and wetland birds; excellent long-lens opportunity from the harbour.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026"
+    },
+    {
+      "icon": "🐿️",
+      "title": "RED SQUIRREL WALK",
+      "location": "Brownsea Island",
+      "date": "DAILY TO 23 OCT",
+      "time": "10:45–12:15",
+      "why": "Autumn is prime time for Brownsea's red squirrels; strong wildlife subject for a 600mm lens.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events"
+    },
+    {
+      "icon": "🐦",
+      "title": "WILD WETLAND BIRD WALK",
+      "location": "Brownsea Island",
+      "date": "SAT 24 OCT",
+      "time": "10:00–12:30",
+      "why": "Guided access to Brownsea Lagoon for waders and wildfowl; excellent long-lens bird photography.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4"
+    }
+  ]
+}
