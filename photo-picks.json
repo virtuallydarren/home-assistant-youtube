@@ -4,34 +4,42 @@
   "radius_miles": 50,
   "picks": [
     {
-      "icon": "🦅",
-      "title": "AUTUMN SAFARI CRUISE",
-      "location": "Poole Quay",
-      "date": "WED 14 OCT",
-      "time": "09:00–12:00",
-      "why": "Recent sightings include white-tailed eagles, spoonbills and avocets; cruise visits otherwise inaccessible harbour channels.",
-      "lens_fit": "Excellent 600mm reach; fast shutter needed on boat.",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026"
+      "icon": "🐬",
+      "title": "MARINELIFE WHALE, DOLPHIN AND SEABIRD IDENTIFICATION COURSE",
+      "location": "Kimmeridge, Dorset Join MARINElife at their training day to learn how to observe",
+      "date": "SAT 17 OCT",
+      "time": "10:00am - 4:30pm",
+      "why": "Seabirds, dolphins, whales; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-17-marinelife-whale-dolphin-and-seabird-identification-course",
+      "source": "Dorset Wildlife Trust"
     },
     {
-      "icon": "🦌",
-      "title": "SIKA DEER RUT",
-      "location": "RSPB Arne, Wareham",
-      "date": "OCTOBER 2026",
-      "time": "08:30–DUSK",
-      "why": "Rutting stags in reserve farmland; potential for behaviour and antler portraits from public trails.",
-      "lens_fit": "Excellent for distant deer without approaching.",
-      "url": "https://www.rspb.org.uk/days-out/reserves/arne"
+      "icon": "🐬",
+      "title": "THE FINE FOUNDATION WILD SEAS CENTRE ,",
+      "location": "Kimmeridge, Dorset Join MARINElife at their training day to learn how to observe",
+      "date": "SAT 17 OCT",
+      "time": "10:00am - 4:30pm",
+      "why": "Seabirds, dolphins, whales; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/wild-seas-centre",
+      "source": "Dorset Wildlife Trust"
     },
     {
-      "icon": "🐿️",
-      "title": "RED SQUIRREL WALK",
-      "location": "Brownsea Island",
-      "date": "DAILY TO 23 OCT",
-      "time": "10:45–12:15",
-      "why": "Autumn foraging red squirrels near the church; guided walks depend on volunteers. Ferry and entry fees apply.",
-      "lens_fit": "Good for unobtrusive portraits; 600mm can be tight.",
-      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events"
+      "icon": "🦉",
+      "title": "WILD WETLAND BIRD WALK",
+      "location": "Brownsea Island with our guided birdwatching walks",
+      "date": "SAT 24 OCT",
+      "time": "10:00 to 12:30",
+      "why": "Owls; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
+      "source": "National Trust Brownsea"
     }
+  ],
+  "sources": [
+    "https://www.birdsofpooleharbourbookings.co.uk/",
+    "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
+    "https://www.dorsetwildlifetrust.org.uk/events"
   ]
 }
