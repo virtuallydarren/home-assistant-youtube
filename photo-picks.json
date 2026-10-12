@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -9,9 +9,19 @@
       "location": "Poole Quay",
       "date": "WED 14 OCT",
       "time": "09:00–12:00",
-      "why": "Autumn migrants, raptors and wetland birds; excellent long-lens opportunity from the harbour.",
-      "lens_fit": "Excellent for 600mm",
+      "why": "Recent sightings include white-tailed eagles, spoonbills and avocets; cruise visits otherwise inaccessible harbour channels.",
+      "lens_fit": "Excellent 600mm reach; fast shutter needed on boat.",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026"
+    },
+    {
+      "icon": "🦌",
+      "title": "SIKA DEER RUT",
+      "location": "RSPB Arne, Wareham",
+      "date": "OCTOBER 2026",
+      "time": "08:30–DUSK",
+      "why": "Rutting stags in reserve farmland; potential for behaviour and antler portraits from public trails.",
+      "lens_fit": "Excellent for distant deer without approaching.",
+      "url": "https://www.rspb.org.uk/days-out/reserves/arne"
     },
     {
       "icon": "🐿️",
@@ -19,19 +29,9 @@
       "location": "Brownsea Island",
       "date": "DAILY TO 23 OCT",
       "time": "10:45–12:15",
-      "why": "Autumn is prime time for Brownsea's red squirrels; strong wildlife subject for a 600mm lens.",
-      "lens_fit": "Very good for 600mm",
+      "why": "Autumn foraging red squirrels near the church; guided walks depend on volunteers. Ferry and entry fees apply.",
+      "lens_fit": "Good for unobtrusive portraits; 600mm can be tight.",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events"
-    },
-    {
-      "icon": "🐦",
-      "title": "WILD WETLAND BIRD WALK",
-      "location": "Brownsea Island",
-      "date": "SAT 24 OCT",
-      "time": "10:00–12:30",
-      "why": "Guided access to Brownsea Lagoon for waders and wildfowl; excellent long-lens bird photography.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4"
     }
   ]
 }
