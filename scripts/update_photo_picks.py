@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import math
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -66,13 +67,14 @@ MONTH_RE = (
     r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 )
 DATE_RE = re.compile(
-    rf"\\b("
-    rf"\\d{{1,2}}(?:st|nd|rd|th)?\\s+{MONTH_RE},?\\s+20\\d{{2}}"
-    rf"|{MONTH_RE}\\s+\\d{{1,2}}(?:st|nd|rd|th)?,?\\s+20\\d{{2}}"
-    rf"|\\d{{1,2}}[/-]\\d{{1,2}}[/-]20\\d{{2}}"
-    rf")\\b",
+    rf"\b("
+    rf"\d{{1,2}}(?:st|nd|rd|th)?\s+{MONTH_RE},?\s+20\d{{2}}"
+    rf"|{MONTH_RE}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+20\d{{2}}"
+    rf"|\d{{1,2}}[/-]\d{{1,2}}[/-]20\d{{2}}"
+    rf")\b",
     re.I,
 )
+
 TIME_RE = re.compile(
     r"\b(\d{1,2}(?::\d{2})?\s*(?:am|pm)?\s*(?:-|–|to)\s*"
     r"\d{1,2}(?::\d{2})?\s*(?:am|pm)?)\b",
@@ -82,8 +84,114 @@ TIME_RE = re.compile(
 HEADERS = {"User-Agent": "Mozilla/5.0 (Home Assistant Photo Picks; +https://onecomposition.com/)"}
 
 
+POOLE_COORDS = (50.7150, -1.9872)
+RADIUS_MILES = 50
+
+# Approximate venue/town centroids. Used only for distance gating; exact street-level
+# precision is unnecessary for a 50-mile photography discovery radius.
+LOCATION_COORDS = {
+    "poole": (50.7150, -1.9872),
+    "poole quay": (50.7122, -1.9865),
+    "poole harbour": (50.6940, -1.9940),
+    "brownsea island": (50.6918, -1.9716),
+    "bournemouth": (50.7192, -1.8808),
+    "christchurch": (50.7358, -1.7813),
+    "wareham": (50.6870, -2.1100),
+    "arne": (50.6923, -2.0386),
+    "rspb arne": (50.6923, -2.0386),
+    "studland": (50.6410, -1.9520),
+    "swanage": (50.6095, -1.9567),
+    "durlston country park": (50.5975, -1.9490),
+    "kimmeridge": (50.6178, -2.1269),
+    "kimmeridge, dorset": (50.6178, -2.1269),
+    "dorchester": (50.7107, -2.4370),
+    "weymouth": (50.6090, -2.4540),
+    "portland": (50.5480, -2.4430),
+    "chesil": (50.6260, -2.5160),
+    "bovington": (50.6975, -2.2357),
+    "the tank museum": (50.6975, -2.2357),
+    "compton abbas": (50.9672, -2.1536),
+    "compton abbas airfield": (50.9672, -2.1536),
+    "ashmore": (50.9990, -2.1370),
+    "west bay": (50.7106, -2.7630),
+    "lyme regis": (50.7252, -2.9345),
+    "lorton meadows": (50.6204, -2.4666),
+    "upton country park": (50.7390, -2.0370),
+    "yeovilton": (51.0094, -2.6388),
+    "rnas yeovilton": (51.0094, -2.6388),
+}
+
+CATEGORY_PRIORITY = ["aviation", "wildlife", "watersports", "photography", "heritage", "other"]
+
+
 def clean(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
+
+def normalize_title(value):
+    value = clean(value).lower()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def resolve_coords(location):
+    text = clean(location).lower()
+    if not text:
+        return None
+    # Prefer the longest known place name to avoid matching "poole" inside
+    # "poole quay".
+    for key in sorted(LOCATION_COORDS, key=len, reverse=True):
+        if key in text:
+            return LOCATION_COORDS[key]
+    return None
+
+
+def distance_miles(location):
+    coords = resolve_coords(location)
+    if not coords:
+        return None
+    lat1, lon1 = POOLE_COORDS
+    lat2, lon2 = coords
+    r = 3958.7613
+    p1 = math.radians(lat1)
+    p2 = math.radians(lat2)
+    dp = math.radians(lat2 - lat1)
+    dl = math.radians(lon2 - lon1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return r * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def category_for(event):
+    text = clean(" ".join([
+        event.get("title", ""),
+        event.get("description", ""),
+        event.get("location", ""),
+    ])).lower()
+
+    if any(x in text for x in [
+        "air show", "airshow", "aircraft", "aviation", "warbird", "wingwalking",
+        "aerobatic", "helicopter", "spitfire", "red arrows", "black cats",
+    ]):
+        return "aviation"
+    if any(x in text for x in [
+        "windsurf", "kitesurf", "regatta", "sailing", "powerboat", "watersport",
+        "surf", "kite festival",
+    ]):
+        return "watersports"
+    if any(x in text for x in [
+        "eagle", "osprey", "harrier", "peregrine", "goshawk", "owl", "raptor",
+        "squirrel", "wader", "wildfowl", "seabird", "dolphin", "whale", "seal",
+        "deer", "bird", "wildlife",
+    ]):
+        return "wildlife"
+    if any(x in text for x in ["photography", "photo walk", "camera"]):
+        return "photography"
+    if any(x in text for x in [
+        "steam train", "steam locomotive", "railway", "tank", "military vehicle",
+        "heritage",
+    ]):
+        return "heritage"
+    return "other"
+
 
 
 def walk_json(value):
@@ -355,6 +463,19 @@ def score_event(event, now):
         if term in text:
             score += penalty
 
+    # Hard exclusions and stronger practical-photo quality signals.
+    if any(term in text for term in ["cancelled", "canceled", "event cancelled", "event canceled"]):
+        return -999
+    if "sold out" in text:
+        return -999
+
+    if any(term in text for term in ["outdoor", "outside", "open air", "nature reserve", "airfield", "harbour", "coast"]):
+        score += 8
+    if any(term in text for term in ["spectator", "public viewing", "viewing area", "guided walk", "boat trip", "cruise"]):
+        score += 6
+    if any(term in text for term in ["night", "evening"]) and "photography" not in text:
+        score -= 4
+
     start = event.get("start")
     if start:
         delta = (start.date() - now.date()).days
@@ -368,6 +489,25 @@ def score_event(event, now):
             score += 8
         elif delta > 120:
             score -= 10
+
+        # Daylight/action events are generally better matches for the user's
+        # long-lens outdoor photography.
+        if 8 <= start.hour <= 17:
+            score += 5
+        elif start.hour >= 20 or start.hour <= 5:
+            score -= 5
+
+    dist = distance_miles(event.get("location", ""))
+    event["distance_miles"] = dist
+    if dist is not None:
+        if dist > RADIUS_MILES:
+            return -999
+        if dist <= 10:
+            score += 10
+        elif dist <= 25:
+            score += 6
+        elif dist <= 40:
+            score += 2
 
     return score
 
@@ -466,58 +606,129 @@ def format_pick(event):
         "lens_fit": lens_fit(event),
         "url": event.get("url"),
         "source": event.get("source"),
+        "category": category_for(event),
+        "distance_miles": (
+            round(event.get("distance_miles"), 1)
+            if event.get("distance_miles") is not None
+            else None
+        ),
     }
 
 
 def main():
     now = datetime.now()
     candidates = []
-    errors = []
+    source_health = []
 
     for source in SOURCES:
+        health = {
+            "name": source["name"],
+            "url": source["url"],
+            "status": "ok",
+            "events_found": 0,
+        }
         try:
-            candidates.extend(fetch_events(source))
+            events = fetch_events(source)
+            health["events_found"] = len(events)
+            if not events:
+                health["status"] = "empty"
+            candidates.extend(events)
         except Exception as exc:
-            errors.append(f"{source['name']}: {exc}")
+            health["status"] = "error"
+            health["error"] = clean(exc)[:240]
+        source_health.append(health)
 
+    # Stronger duplicate suppression: normalized title + date + location.
+    # This collapses listing-page/event-page duplicates without merging
+    # genuinely different events that happen on the same day.
     dedup = {}
     for event in candidates:
-        key = (
-            clean(event.get("title")).lower(),
-            event.get("start").date().isoformat() if event.get("start") else clean(event.get("date_text")).lower(),
+        date_key = (
+            event.get("start").date().isoformat()
+            if event.get("start")
+            else clean(event.get("date_text")).lower()
         )
+        location_key = clean(event.get("location")).lower()
+        key = (normalize_title(event.get("title")), date_key, location_key)
         if key not in dedup:
             dedup[key] = event
+        else:
+            # Prefer the richer record when two pages describe the same event.
+            current = dedup[key]
+            if len(clean(event.get("description"))) > len(clean(current.get("description"))):
+                dedup[key] = event
+
+    scored = []
+    for event in dedup.values():
+        score = score_event(event, now)
+        if score >= 20:
+            event["_score"] = score
+            event["_category"] = category_for(event)
+            scored.append(event)
 
     ranked = sorted(
-        dedup.values(),
-        key=lambda item: (score_event(item, now), -(item.get("start") or datetime.max).timestamp()),
+        scored,
+        key=lambda item: (
+            item["_score"],
+            -(item.get("start") or datetime.max).timestamp(),
+        ),
         reverse=True,
     )
 
-    picks = []
-    seen_titles = set()
-    for event in ranked:
-        score = score_event(event, now)
-        if score < 20:
-            continue
-        title_key = clean(event.get("title")).lower()
-        if title_key in seen_titles:
-            continue
-        seen_titles.add(title_key)
-        picks.append(format_pick(event))
-        if len(picks) == 3:
+    # Keep a reserve pool of the ten strongest unique candidates.
+    reserve_pool = ranked[:10]
+
+    # Prefer category diversity in the three dashboard slots. First take the
+    # strongest event from distinct categories, then fill any remaining slots
+    # purely by score.
+    picks_events = []
+    used_categories = set()
+    used_keys = set()
+
+    for event in reserve_pool:
+        category = event["_category"]
+        key = (
+            normalize_title(event.get("title")),
+            event.get("start").date().isoformat() if event.get("start") else clean(event.get("date_text")),
+            clean(event.get("location")).lower(),
+        )
+        if category not in used_categories:
+            picks_events.append(event)
+            used_categories.add(category)
+            used_keys.add(key)
+        if len(picks_events) == 3:
             break
+
+    if len(picks_events) < 3:
+        for event in reserve_pool:
+            key = (
+                normalize_title(event.get("title")),
+                event.get("start").date().isoformat() if event.get("start") else clean(event.get("date_text")),
+                clean(event.get("location")).lower(),
+            )
+            if key in used_keys:
+                continue
+            picks_events.append(event)
+            used_keys.add(key)
+            if len(picks_events) == 3:
+                break
+
+    picks = [format_pick(event) for event in picks_events]
+    reserves = [
+        format_pick(event)
+        for event in reserve_pool
+        if event not in picks_events
+    ][:7]
 
     payload = {
         "updated": datetime.now(timezone.utc).date().isoformat(),
         "area": "Poole/Dorset, UK",
-        "radius_miles": 50,
+        "radius_miles": RADIUS_MILES,
         "picks": picks,
+        "reserves": reserves,
+        "source_health": source_health,
         "sources": [x["url"] for x in SOURCES],
     }
-    if errors:
-        payload["source_errors"] = errors
 
     Path("photo-picks.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
