@@ -12,14 +12,52 @@ SOURCES = [
     {
         "name": "Birds of Poole Harbour",
         "url": "https://www.birdsofpooleharbourbookings.co.uk/",
+        "default_location": "Poole Harbour",
     },
     {
         "name": "National Trust Brownsea",
         "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
+        "default_location": "Brownsea Island",
     },
     {
         "name": "Dorset Wildlife Trust",
         "url": "https://www.dorsetwildlifetrust.org.uk/events",
+        "default_location": "Dorset",
+    },
+    {
+        "name": "Durlston Country Park",
+        "url": "https://www.durlston.co.uk/events.aspx",
+        "default_location": "Durlston Country Park",
+    },
+    {
+        "name": "Compton Abbas Airfield",
+        "url": "https://www.comptonairfield.com/events/",
+        "default_location": "Compton Abbas Airfield",
+    },
+    {
+        "name": "Swanage Railway",
+        "url": "https://www.swanagerailway.co.uk/events",
+        "default_location": "Swanage",
+    },
+    {
+        "name": "The Tank Museum",
+        "url": "https://tankmuseum.org/events/",
+        "default_location": "Bovington",
+    },
+    {
+        "name": "Visit Dorset - Nature",
+        "url": "https://www.visit-dorset.com/whats-on/nature-events/",
+        "default_location": "Dorset",
+    },
+    {
+        "name": "Visit Dorset - Art",
+        "url": "https://www.visit-dorset.com/whats-on/art-events/",
+        "default_location": "Dorset",
+    },
+    {
+        "name": "Visit Dorset - Sport",
+        "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
+        "default_location": "Dorset",
     },
 ]
 
@@ -27,7 +65,14 @@ MONTH_RE = (
     r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
     r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 )
-DATE_RE = re.compile(rf"\b(\d{{1,2}}\s+{MONTH_RE}\s+20\d{{2}})\b", re.I)
+DATE_RE = re.compile(
+    rf"\\b("
+    rf"\\d{{1,2}}(?:st|nd|rd|th)?\\s+{MONTH_RE},?\\s+20\\d{{2}}"
+    rf"|{MONTH_RE}\\s+\\d{{1,2}}(?:st|nd|rd|th)?,?\\s+20\\d{{2}}"
+    rf"|\\d{{1,2}}[/-]\\d{{1,2}}[/-]20\\d{{2}}"
+    rf")\\b",
+    re.I,
+)
 TIME_RE = re.compile(
     r"\b(\d{1,2}(?::\d{2})?\s*(?:am|pm)?\s*(?:-|–|to)\s*"
     r"\d{1,2}(?::\d{2})?\s*(?:am|pm)?)\b",
@@ -102,7 +147,7 @@ def extract_jsonld_events(soup, source):
                 continue
             start = parse_dt(obj.get("startDate"))
             desc = clean(obj.get("description"))
-            loc = location_text(obj.get("location"))
+            loc = location_text(obj.get("location")) or source.get("default_location", "")
             url = clean(obj.get("url")) or source["url"]
             events.append(
                 {
@@ -159,7 +204,8 @@ def extract_heading_events(soup, source):
         location_match = re.search(
             r"\b(Poole Quay|Poole|Brownsea Island|RSPB Arne|Arne|Wareham|Studland|"
             r"Swanage|Bournemouth|Christchurch|Weymouth|Dorchester|Kimmeridge|"
-            r"Portland|Chesil|Lorton Meadows|Upton Country Park)\b",
+            r"Portland|Chesil|Lorton Meadows|Upton Country Park|Bovington|"
+            r"Compton Abbas|Ashmore|Yeovilton|West Bay|Lyme Regis)\b",
             block,
             re.I,
         )
@@ -184,6 +230,12 @@ def extract_heading_events(soup, source):
                 "chesil": "Chesil",
                 "lorton meadows": "Lorton Meadows",
                 "upton country park": "Upton Country Park",
+                "bovington": "Bovington",
+                "compton abbas": "Compton Abbas Airfield",
+                "ashmore": "Compton Abbas Airfield",
+                "yeovilton": "RNAS Yeovilton",
+                "west bay": "West Bay",
+                "lyme regis": "Lyme Regis",
             }
             location = canonical_locations.get(
                 location_match.group(1).lower(),
@@ -196,7 +248,7 @@ def extract_heading_events(soup, source):
                 "start": start,
                 "date_text": date_match.group(1),
                 "time_text": clean(time_match.group(1)) if time_match else "",
-                "location": location,
+                "location": location or source.get("default_location", ""),
                 "description": block[:700],
                 "url": url,
                 "source": source["name"],
@@ -261,7 +313,33 @@ def score_event(event, now):
         "lagoon": 12,
         "harbour": 10,
         "migration": 14,
-        "photography": 25,
+        "photography": 30,
+        "photo walk": 28,
+        "camera": 12,
+        "air show": 55,
+        "airshow": 55,
+        "aircraft": 35,
+        "aviation": 35,
+        "warbird": 45,
+        "wingwalking": 45,
+        "aerobatic": 40,
+        "helicopter": 32,
+        "spitfire": 45,
+        "red arrows": 55,
+        "black cats": 45,
+        "flying scotsman": 35,
+        "steam locomotive": 28,
+        "steam train": 25,
+        "tank": 28,
+        "military vehicle": 28,
+        "windsurf": 35,
+        "kitesurf": 35,
+        "kite festival": 32,
+        "regatta": 28,
+        "sailing": 22,
+        "powerboat": 35,
+        "watersport": 25,
+        "surf": 20,
     }.items():
         if term in text:
             score += points
@@ -296,6 +374,16 @@ def score_event(event, now):
 
 def icon_for(event):
     text = clean(event.get("title", "") + " " + event.get("description", "")).lower()
+    if any(x in text for x in ["air show", "airshow", "aircraft", "aviation", "warbird", "wingwalking", "aerobatic", "helicopter", "spitfire", "red arrows", "black cats"]):
+        return "✈️"
+    if any(x in text for x in ["windsurf", "kitesurf", "regatta", "sailing", "powerboat", "watersport", "surf"]):
+        return "🌊"
+    if any(x in text for x in ["flying scotsman", "steam locomotive", "steam train", "railway"]):
+        return "🚂"
+    if any(x in text for x in ["tank", "military vehicle"]):
+        return "📸"
+    if "photography" in text or "photo walk" in text:
+        return "📷"
     if any(x in text for x in ["eagle", "harrier", "peregrine", "goshawk", "raptor"]):
         return "🦅"
     if "owl" in text:
@@ -313,6 +401,10 @@ def lens_fit(event):
     text = clean(event.get("title", "") + " " + event.get("description", "")).lower()
     if any(x in text for x in ["eagle", "osprey", "harrier", "peregrine", "goshawk", "owl", "wader", "wildfowl", "seabird", "squirrel"]):
         return "Excellent for 600mm"
+    if any(x in text for x in ["air show", "airshow", "aircraft", "aviation", "warbird", "wingwalking", "aerobatic", "helicopter", "spitfire", "red arrows", "black cats"]):
+        return "Excellent for 600mm"
+    if any(x in text for x in ["windsurf", "kitesurf", "regatta", "powerboat", "watersport", "flying scotsman", "steam locomotive", "steam train", "tank"]):
+        return "Very good for 600mm"
     if any(x in text for x in ["bird", "wildlife", "dolphin", "whale", "seal"]):
         return "Very good for 600mm"
     return "Good long-lens opportunity"
@@ -340,7 +432,17 @@ def why_for(event):
             subjects.append(label)
     if subjects:
         return ", ".join(subjects[:4]).capitalize() + "; strong long-lens subject."
-    return "Wildlife-focused event with good long-lens potential."
+    if any(x in text for x in ["air show", "airshow", "aircraft", "aviation", "warbird", "wingwalking", "aerobatic", "helicopter", "spitfire", "red arrows", "black cats"]):
+        return "Aircraft/action subject; excellent long-lens photography potential."
+    if any(x in text for x in ["windsurf", "kitesurf", "regatta", "sailing", "powerboat", "watersport", "surf"]):
+        return "Fast-moving watersports/action subject with strong photography potential."
+    if any(x in text for x in ["flying scotsman", "steam locomotive", "steam train", "railway"]):
+        return "Heritage railway subject with strong action and environmental photography potential."
+    if any(x in text for x in ["tank", "military vehicle"]):
+        return "Historic vehicle/action subject with strong photography potential."
+    if "photography" in text or "photo walk" in text:
+        return "Photography-focused event."
+    return "Visually strong event with good photography potential."
 
 
 def format_pick(event):
@@ -397,7 +499,7 @@ def main():
     seen_titles = set()
     for event in ranked:
         score = score_event(event, now)
-        if score < 18:
+        if score < 20:
             continue
         title_key = clean(event.get("title")).lower()
         if title_key in seen_titles:
