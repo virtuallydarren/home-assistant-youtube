@@ -133,6 +133,29 @@ def normalize_title(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
+GENERIC_HEADING_TITLES = {
+    "cookie consent",
+    "event summary",
+    "events",
+    "what s on",
+    "what's on",
+    "more events",
+    "upcoming events",
+    "latest events",
+    "related events",
+    "event details",
+    "event information",
+    "find out more",
+    "book now",
+    "learn more",
+}
+
+
+def is_generic_heading_title(value):
+    normalized = normalize_title(value)
+    return normalized in {normalize_title(x) for x in GENERIC_HEADING_TITLES}
+
+
 def resolve_coords(location):
     text = clean(location).lower()
     if not text:
@@ -280,13 +303,30 @@ def extract_heading_events(soup, source):
         title = clean(heading.get_text(" ", strip=True))
         if len(title) < 4 or len(title) > 140:
             continue
+        if is_generic_heading_title(title):
+            continue
 
+        # Use the nearest ancestor that contains a date instead of blindly
+        # climbing three levels. This keeps each title associated with its own
+        # event card and avoids borrowing a date/time from a neighbouring event.
         container = heading
-        for _ in range(3):
-            if container.parent:
-                container = container.parent
-        block = clean(container.get_text(" ", strip=True))
-        date_match = DATE_RE.search(block)
+        block = ""
+        date_match = None
+        for _ in range(5):
+            candidate = container.parent if container.parent else container
+            candidate_block = clean(candidate.get_text(" ", strip=True))
+            candidate_date = DATE_RE.search(candidate_block)
+
+            if candidate_date and len(candidate_block) <= 1800:
+                container = candidate
+                block = candidate_block
+                date_match = candidate_date
+                break
+
+            if candidate is container:
+                break
+            container = candidate
+
         if not date_match:
             continue
 
