@@ -156,6 +156,43 @@ def is_generic_heading_title(value):
     return normalized in {normalize_title(x) for x in GENERIC_HEADING_TITLES}
 
 
+def is_non_event_heading(value, source=None):
+    normalized = normalize_title(value)
+
+    if is_generic_heading_title(value):
+        return True
+
+    # Reject calendar/day labels that some listing pages expose as headings,
+    # e.g. "Monday 19th", "Tuesday 20th", etc.
+    if re.fullmatch(
+        r"(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday)\s+\d{1,2}(?:st|nd|rd|th)?",
+        normalized,
+    ):
+        return True
+
+    # Reject bare venue/location headings. These are structural labels, not
+    # actual events, and can otherwise outrank real events because their parent
+    # block contains wildlife-related text.
+    source_default = normalize_title((source or {}).get("default_location", ""))
+    if source_default and normalized == source_default:
+        return True
+
+    bare_places = {
+        "brownsea island",
+        "durlston country park",
+        "poole harbour",
+        "poole quay",
+        "compton abbas airfield",
+        "the tank museum",
+        "swanage",
+        "dorset",
+    }
+    if normalized in bare_places:
+        return True
+
+    return False
+
+
 def resolve_coords(location):
     text = clean(location).lower()
     if not text:
@@ -303,7 +340,7 @@ def extract_heading_events(soup, source):
         title = clean(heading.get_text(" ", strip=True))
         if len(title) < 4 or len(title) > 140:
             continue
-        if is_generic_heading_title(title):
+        if is_non_event_heading(title, source):
             continue
 
         # Use the nearest ancestor that contains a date instead of blindly
