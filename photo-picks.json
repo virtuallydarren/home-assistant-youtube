@@ -17,6 +17,19 @@
       "distance_miles": 9.1
     },
     {
+      "icon": "🐦",
+      "title": "AUTUMN SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "SAT 24 OCT",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
+    },
+    {
       "icon": "🐬",
       "title": "THE FINE FOUNDATION WILD SEAS CENTRE",
       "location": "Kimmeridge, Dorset",
@@ -28,7 +41,9 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 9.1
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
       "title": "WILD WETLAND BIRD WALK",
@@ -39,21 +54,6 @@
       "lens_fit": "Excellent for 600mm",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
       "source": "National Trust Brownsea",
-      "category": "wildlife",
-      "distance_miles": 1.7
-    }
-  ],
-  "reserves": [
-    {
-      "icon": "🦉",
-      "title": "BROWNSEA ISLAND",
-      "location": "Brownsea Island",
-      "date": "SAT 24 OCT",
-      "time": "10:00am - 12:30pm",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/brownsea-island",
-      "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 1.7
     },
@@ -72,19 +72,6 @@
     },
     {
       "icon": "🐦",
-      "title": "MONDAY 19TH",
-      "location": "Durlston Country Park",
-      "date": "MON 19 OCT",
-      "time": "10:00 - 15:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/event/halloween-childrens-trail--19-10-2026-1000",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
-    {
-      "icon": "🐦",
       "title": "'MIRACLE OF MIGRATION' EXHIBITION",
       "location": "Durlston Country Park",
       "date": "MON 19 OCT",
@@ -92,19 +79,6 @@
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
       "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
-    {
-      "icon": "🐦",
-      "title": "TUESDAY 20TH",
-      "location": "Durlston Country Park",
-      "date": "TUE 20 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/event/miracle-of-migration-exhibition-20-10-2026-1000",
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
@@ -124,16 +98,42 @@
     },
     {
       "icon": "🐦",
-      "title": "WEDNESDAY 21ST",
+      "title": "'MIRACLE OF MIGRATION' EXHIBITION",
       "location": "Durlston Country Park",
       "date": "WED 21 OCT",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/event/miracle-of-migration-exhibition-21-10-2026-1000",
+      "url": "https://www.durlston.co.uk/events.aspx",
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "'MIRACLE OF MIGRATION' EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "THU 22 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "WINTER SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "SUN 01 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
     }
   ],
   "source_health": [
@@ -153,13 +153,13 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 20
+      "events_found": 19
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 56
+      "events_found": 40
     },
     {
       "name": "Compton Abbas Airfield",
@@ -170,8 +170,9 @@
     {
       "name": "Swanage Railway",
       "url": "https://www.swanagerailway.co.uk/events",
-      "status": "empty",
-      "events_found": 0
+      "status": "error",
+      "events_found": 0,
+      "error": "HTTPSConnectionPool(host='www.swanagerailway.co.uk', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "The Tank Museum",
