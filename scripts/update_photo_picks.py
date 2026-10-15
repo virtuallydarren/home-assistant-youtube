@@ -157,14 +157,38 @@ def extract_heading_events(soup, source):
 
         location = ""
         location_match = re.search(
-            r"(Poole(?: Quay)?|Brownsea Island|RSPB Arne|Arne|Wareham|Studland|"
+            r"\b(Poole Quay|Poole|Brownsea Island|RSPB Arne|Arne|Wareham|Studland|"
             r"Swanage|Bournemouth|Christchurch|Weymouth|Dorchester|Kimmeridge|"
-            r"Portland|Chesil|Lorton Meadows|Upton Country Park)[^.;|]*",
+            r"Portland|Chesil|Lorton Meadows|Upton Country Park)\b",
             block,
             re.I,
         )
         if location_match:
-            location = clean(location_match.group(0))[:80]
+            # Keep the dashboard location concise and deterministic. The old
+            # pattern captured the rest of the surrounding sentence as well.
+            canonical_locations = {
+                "poole quay": "Poole Quay",
+                "poole": "Poole",
+                "brownsea island": "Brownsea Island",
+                "rspb arne": "RSPB Arne",
+                "arne": "Arne",
+                "wareham": "Wareham",
+                "studland": "Studland",
+                "swanage": "Swanage",
+                "bournemouth": "Bournemouth",
+                "christchurch": "Christchurch",
+                "weymouth": "Weymouth",
+                "dorchester": "Dorchester",
+                "kimmeridge": "Kimmeridge, Dorset",
+                "portland": "Portland",
+                "chesil": "Chesil",
+                "lorton meadows": "Lorton Meadows",
+                "upton country park": "Upton Country Park",
+            }
+            location = canonical_locations.get(
+                location_match.group(1).lower(),
+                clean(location_match.group(1)),
+            )
 
         events.append(
             {
@@ -332,7 +356,7 @@ def format_pick(event):
 
     return {
         "icon": icon_for(event),
-        "title": clean(event.get("title")).upper(),
+        "title": clean(event.get("title")).strip(" ,;:-").upper(),
         "location": clean(event.get("location")) or event.get("source", "Dorset"),
         "date": date_text,
         "time": time_text,
