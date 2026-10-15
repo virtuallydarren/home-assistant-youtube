@@ -30,21 +30,6 @@
       "distance_miles": 9.1
     },
     {
-      "icon": "🐦",
-      "title": "COOKIE CONSENT",
-      "location": "Poole",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://facebook.com/BirdsOfPooleHarbour",
-      "source": "Birds of Poole Harbour",
-      "category": "wildlife",
-      "distance_miles": 0.0
-    }
-  ],
-  "reserves": [
-    {
       "icon": "🦉",
       "title": "WILD WETLAND BIRD WALK",
       "location": "Brownsea Island",
@@ -56,84 +41,99 @@
       "source": "National Trust Brownsea",
       "category": "wildlife",
       "distance_miles": 1.7
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
-      "title": "EVENT SUMMARY",
+      "title": "BROWNSEA ISLAND",
       "location": "Brownsea Island",
       "date": "SAT 24 OCT",
-      "time": "10:00 to 12:30",
+      "time": "10:00am - 12:30pm",
       "why": "Owls; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
-      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
+      "url": "https://www.dorsetwildlifetrust.org.uk/brownsea-island",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 1.7
+    },
+    {
+      "icon": "🐿️",
+      "title": "FREE DAILY GUIDED RED SQUIRREL WALKS",
+      "location": "Brownsea Island",
+      "date": "FRI 23 OCT",
+      "time": "10:45 to 12:15",
+      "why": "Red squirrels; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/7f356563-ef6b-43f1-802d-ba35d4e91cc3",
       "source": "National Trust Brownsea",
       "category": "wildlife",
       "distance_miles": 1.7
     },
     {
       "icon": "🐦",
-      "title": "LOW TIDE CRUISES",
-      "location": "Poole Quay",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
-      "source": "Birds of Poole Harbour",
+      "title": "MONDAY 19TH",
+      "location": "Durlston Country Park",
+      "date": "MON 19 OCT",
+      "time": "10:00 - 15:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/event/halloween-childrens-trail--19-10-2026-1000",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 8.3
     },
     {
       "icon": "🐦",
-      "title": "AUTUMN SAFARI CRUISES",
-      "location": "Poole Quay",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026",
-      "source": "Birds of Poole Harbour",
+      "title": "'MIRACLE OF MIGRATION' EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "MON 19 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 8.3
     },
     {
       "icon": "🐦",
-      "title": "INTRO TO URBAN BIRDING: POOLE QUAY",
-      "location": "Poole Quay",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/urban-birding",
-      "source": "Birds of Poole Harbour",
+      "title": "TUESDAY 20TH",
+      "location": "Durlston Country Park",
+      "date": "TUE 20 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/event/miracle-of-migration-exhibition-20-10-2026-1000",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 8.3
     },
     {
       "icon": "🐦",
-      "title": "WINTER SAFARI CRUISES",
-      "location": "Poole Quay",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
-      "source": "Birds of Poole Harbour",
+      "title": "'MIRACLE OF MIGRATION' EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "TUE 20 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 8.3
     },
     {
       "icon": "🐦",
-      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
-      "location": "Poole Quay",
-      "date": "FRI 23 OCT",
-      "time": "1:00 pm - 4:00 pm",
-      "why": "Waders; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
-      "source": "Birds of Poole Harbour",
+      "title": "WEDNESDAY 21ST",
+      "location": "Durlston Country Park",
+      "date": "WED 21 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/event/miracle-of-migration-exhibition-21-10-2026-1000",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -141,37 +141,37 @@
       "name": "Birds of Poole Harbour",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/",
       "status": "ok",
-      "events_found": 10
+      "events_found": 9
     },
     {
       "name": "National Trust Brownsea",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
       "status": "ok",
-      "events_found": 19
+      "events_found": 9
     },
     {
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 21
+      "events_found": 20
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 19
+      "events_found": 56
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 21
+      "events_found": 19
     },
     {
       "name": "Swanage Railway",
       "url": "https://www.swanagerailway.co.uk/events",
-      "status": "ok",
-      "events_found": 1
+      "status": "empty",
+      "events_found": 0
     },
     {
       "name": "The Tank Museum",
@@ -183,19 +183,19 @@
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
       "status": "ok",
-      "events_found": 17
+      "events_found": 16
     },
     {
       "name": "Visit Dorset - Art",
       "url": "https://www.visit-dorset.com/whats-on/art-events/",
       "status": "ok",
-      "events_found": 12
+      "events_found": 11
     },
     {
       "name": "Visit Dorset - Sport",
       "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
       "status": "ok",
-      "events_found": 8
+      "events_found": 11
     }
   ],
   "sources": [
