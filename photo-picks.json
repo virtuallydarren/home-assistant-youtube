@@ -12,7 +12,9 @@
       "why": "Seabirds, dolphins, whales; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
       "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-17-marinelife-whale-dolphin-and-seabird-identification-course",
-      "source": "Dorset Wildlife Trust"
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 9.1
     },
     {
       "icon": "🐬",
@@ -23,8 +25,25 @@
       "why": "Seabirds, dolphins, whales; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
       "url": "https://www.dorsetwildlifetrust.org.uk/wild-seas-centre",
-      "source": "Dorset Wildlife Trust"
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 9.1
     },
+    {
+      "icon": "🐦",
+      "title": "COOKIE CONSENT",
+      "location": "Poole",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://facebook.com/BirdsOfPooleHarbour",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.0
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
       "title": "WILD WETLAND BIRD WALK",
@@ -34,12 +53,161 @@
       "why": "Owls; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
-      "source": "National Trust Brownsea"
+      "source": "National Trust Brownsea",
+      "category": "wildlife",
+      "distance_miles": 1.7
+    },
+    {
+      "icon": "🦉",
+      "title": "EVENT SUMMARY",
+      "location": "Brownsea Island",
+      "date": "SAT 24 OCT",
+      "time": "10:00 to 12:30",
+      "why": "Owls; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
+      "source": "National Trust Brownsea",
+      "category": "wildlife",
+      "distance_miles": 1.7
+    },
+    {
+      "icon": "🐦",
+      "title": "LOW TIDE CRUISES",
+      "location": "Poole Quay",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "AUTUMN SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "INTRO TO URBAN BIRDING: POOLE QUAY",
+      "location": "Poole Quay",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/urban-birding",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "WINTER SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
+      "location": "Poole Quay",
+      "date": "FRI 23 OCT",
+      "time": "1:00 pm - 4:00 pm",
+      "why": "Waders; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    }
+  ],
+  "source_health": [
+    {
+      "name": "Birds of Poole Harbour",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/",
+      "status": "ok",
+      "events_found": 10
+    },
+    {
+      "name": "National Trust Brownsea",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
+      "status": "ok",
+      "events_found": 19
+    },
+    {
+      "name": "Dorset Wildlife Trust",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events",
+      "status": "ok",
+      "events_found": 21
+    },
+    {
+      "name": "Durlston Country Park",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "status": "ok",
+      "events_found": 19
+    },
+    {
+      "name": "Compton Abbas Airfield",
+      "url": "https://www.comptonairfield.com/events/",
+      "status": "ok",
+      "events_found": 21
+    },
+    {
+      "name": "Swanage Railway",
+      "url": "https://www.swanagerailway.co.uk/events",
+      "status": "ok",
+      "events_found": 1
+    },
+    {
+      "name": "The Tank Museum",
+      "url": "https://tankmuseum.org/events/",
+      "status": "ok",
+      "events_found": 12
+    },
+    {
+      "name": "Visit Dorset - Nature",
+      "url": "https://www.visit-dorset.com/whats-on/nature-events/",
+      "status": "ok",
+      "events_found": 17
+    },
+    {
+      "name": "Visit Dorset - Art",
+      "url": "https://www.visit-dorset.com/whats-on/art-events/",
+      "status": "ok",
+      "events_found": 12
+    },
+    {
+      "name": "Visit Dorset - Sport",
+      "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
+      "status": "ok",
+      "events_found": 8
     }
   ],
   "sources": [
     "https://www.birdsofpooleharbourbookings.co.uk/",
     "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
-    "https://www.dorsetwildlifetrust.org.uk/events"
+    "https://www.dorsetwildlifetrust.org.uk/events",
+    "https://www.durlston.co.uk/events.aspx",
+    "https://www.comptonairfield.com/events/",
+    "https://www.swanagerailway.co.uk/events",
+    "https://tankmuseum.org/events/",
+    "https://www.visit-dorset.com/whats-on/nature-events/",
+    "https://www.visit-dorset.com/whats-on/art-events/",
+    "https://www.visit-dorset.com/whats-on/sporting-events/"
   ]
 }
