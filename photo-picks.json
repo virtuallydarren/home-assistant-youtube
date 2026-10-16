@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -124,16 +124,16 @@
     },
     {
       "icon": "🐦",
-      "title": "WINTER SAFARI CRUISES",
-      "location": "Poole Quay",
-      "date": "SUN 01 NOV",
-      "time": "",
+      "title": "'MIRACLE OF MIGRATION' EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "FRI 23 OCT",
+      "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
-      "source": "Birds of Poole Harbour",
-      "category": "other",
-      "distance_miles": 0.2
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -165,14 +165,13 @@
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 19
+      "events_found": 14
     },
     {
       "name": "Swanage Railway",
       "url": "https://www.swanagerailway.co.uk/events",
-      "status": "error",
-      "events_found": 0,
-      "error": "HTTPSConnectionPool(host='www.swanagerailway.co.uk', port=443): Read timed out. (read timeout=30)"
+      "status": "empty",
+      "events_found": 0
     },
     {
       "name": "The Tank Museum",
