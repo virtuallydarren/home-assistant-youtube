@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
     {
-      "icon": "🐬",
-      "title": "MARINELIFE WHALE, DOLPHIN AND SEABIRD IDENTIFICATION COURSE",
-      "location": "Kimmeridge, Dorset",
-      "date": "SAT 17 OCT",
-      "time": "10:00am - 4:30pm",
-      "why": "Seabirds, dolphins, whales; strong long-lens subject.",
+      "icon": "🦉",
+      "title": "WILD WETLAND BIRD WALK",
+      "location": "Brownsea Island",
+      "date": "SAT 24 OCT",
+      "time": "10:00 to 12:30",
+      "why": "Owls; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-17-marinelife-whale-dolphin-and-seabird-identification-course",
-      "source": "Dorset Wildlife Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
+      "source": "National Trust Brownsea",
       "category": "wildlife",
-      "distance_miles": 9.1
+      "distance_miles": 1.7
     },
     {
       "icon": "🐦",
@@ -30,34 +30,6 @@
       "distance_miles": 0.2
     },
     {
-      "icon": "🐬",
-      "title": "THE FINE FOUNDATION WILD SEAS CENTRE",
-      "location": "Kimmeridge, Dorset",
-      "date": "SAT 17 OCT",
-      "time": "10:00am - 4:30pm",
-      "why": "Seabirds, dolphins, whales; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/wild-seas-centre",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 9.1
-    }
-  ],
-  "reserves": [
-    {
-      "icon": "🦉",
-      "title": "WILD WETLAND BIRD WALK",
-      "location": "Brownsea Island",
-      "date": "SAT 24 OCT",
-      "time": "10:00 to 12:30",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
-      "source": "National Trust Brownsea",
-      "category": "wildlife",
-      "distance_miles": 1.7
-    },
-    {
       "icon": "🐿️",
       "title": "FREE DAILY GUIDED RED SQUIRREL WALKS",
       "location": "Brownsea Island",
@@ -69,7 +41,9 @@
       "source": "National Trust Brownsea",
       "category": "wildlife",
       "distance_miles": 1.7
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
@@ -134,6 +108,32 @@
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "SAT 24 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "SUN 25 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -147,19 +147,19 @@
       "name": "National Trust Brownsea",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
       "status": "ok",
-      "events_found": 9
+      "events_found": 8
     },
     {
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 19
+      "events_found": 18
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 40
+      "events_found": 39
     },
     {
       "name": "Compton Abbas Airfield",
