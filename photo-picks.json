@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 39
+      "events_found": 38
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 14
+      "events_found": 22
     },
     {
       "name": "Swanage Railway",
@@ -177,7 +177,7 @@
       "name": "The Tank Museum",
       "url": "https://tankmuseum.org/events/",
       "status": "ok",
-      "events_found": 12
+      "events_found": 13
     },
     {
       "name": "Visit Dorset - Nature",
