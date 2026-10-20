@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -44,19 +44,6 @@
     }
   ],
   "reserves": [
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "MON 19 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
     {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
@@ -134,6 +121,19 @@
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "MON 26 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -153,19 +153,19 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 18
+      "events_found": 19
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 38
+      "events_found": 35
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 22
+      "events_found": 19
     },
     {
       "name": "Swanage Railway",
