@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -44,19 +44,6 @@
     }
   ],
   "reserves": [
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "WED 21 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
     {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
@@ -134,6 +121,19 @@
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "🦉",
+      "title": "OWLS AND OWL PELLETS AT LORTON MEADOWS",
+      "location": "Lorton Meadows",
+      "date": "WED 28 OCT",
+      "time": "10:00am - 11:30am",
+      "why": "Owls; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-28-owls-and-owl-pellets-lorton-meadows",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 22.0
     }
   ],
   "source_health": [
@@ -147,7 +147,7 @@
       "name": "National Trust Brownsea",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
       "status": "ok",
-      "events_found": 7
+      "events_found": 6
     },
     {
       "name": "Dorset Wildlife Trust",
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 32
+      "events_found": 29
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 19
+      "events_found": 22
     },
     {
       "name": "Swanage Railway",
