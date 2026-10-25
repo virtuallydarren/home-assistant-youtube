@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,46 +30,20 @@
       "distance_miles": 0.2
     },
     {
-      "icon": "🦉",
-      "title": "WILD WETLAND BIRD WALK",
-      "location": "Brownsea Island",
-      "date": "SAT 24 OCT",
-      "time": "10:00am - 12:30pm",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-24-wild-wetland-bird-walk",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 1.7
+      "icon": "🐦",
+      "title": "WINTER SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "SUN 01 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
     }
   ],
   "reserves": [
-    {
-      "icon": "🦉",
-      "title": "STUDLAND'S WICKED WILDLIFE TRAIL",
-      "location": "Studland Bay",
-      "date": "SAT 24 OCT",
-      "time": "",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.visit-dorset.com/event/studlands-wicked-wildlife-trail/401204301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": 5.3
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "SAT 24 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
     {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
@@ -134,6 +108,32 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 22.0
+    },
+    {
+      "icon": "🐦",
+      "title": "WILLOW BIRD FEEDER FAMILY ACTIVITY",
+      "location": "Dorchester",
+      "date": "WED 28 OCT",
+      "time": "10:30am - 12:00pm",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-28-willow-bird-feeder-family-activity",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 19.7
+    },
+    {
+      "icon": "🐦",
+      "title": "KINGCOMBE VISITOR CENTRE",
+      "location": "Dorchester",
+      "date": "WED 28 OCT",
+      "time": "10:30am - 12:00pm",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/habitats/wetlands",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 19.7
     }
   ],
   "source_health": [
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 23
+      "events_found": 20
     },
     {
       "name": "Compton Abbas Airfield",
