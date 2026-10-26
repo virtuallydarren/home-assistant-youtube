@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -46,16 +46,29 @@
   "reserves": [
     {
       "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "SUN 25 OCT",
-      "time": "10:00 - 17:00",
+      "title": "IDENTIFYING BIRDS BY SIGHT AND SOUND",
+      "location": "Dorchester",
+      "date": "WED 04 NOV",
+      "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
+      "url": "https://www.dorsetwildlifetrust.org.uk/node/5231",
+      "source": "Dorset Wildlife Trust",
       "category": "wildlife",
-      "distance_miles": 8.3
+      "distance_miles": 19.7
+    },
+    {
+      "icon": "🐦",
+      "title": "KINGCOMBE VISITOR CENTRE",
+      "location": "Dorchester",
+      "date": "WED 04 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/nature-reserves/kingcombe-visitor-centre",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 19.7
     },
     {
       "icon": "🐦",
@@ -121,19 +134,6 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 19.7
-    },
-    {
-      "icon": "🐦",
-      "title": "KINGCOMBE VISITOR CENTRE",
-      "location": "Dorchester",
-      "date": "WED 28 OCT",
-      "time": "10:30am - 12:00pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/habitats/wetlands",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 19.7
     }
   ],
   "source_health": [
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 20
+      "events_found": 18
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 19
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
@@ -183,7 +183,7 @@
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
       "status": "ok",
-      "events_found": 16
+      "events_found": 17
     },
     {
       "name": "Visit Dorset - Art",
