@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -16,34 +16,6 @@
       "category": "wildlife",
       "distance_miles": 1.7
     },
-    {
-      "icon": "🐦",
-      "title": "AUTUMN SAFARI CRUISES",
-      "location": "Poole Quay",
-      "date": "WED 28 OCT",
-      "time": "9:00 am - 12:00 pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/autumn-safari-cruises-2026",
-      "source": "Birds of Poole Harbour",
-      "category": "other",
-      "distance_miles": 0.2
-    },
-    {
-      "icon": "🐦",
-      "title": "WINTER SAFARI CRUISES",
-      "location": "Poole Quay",
-      "date": "SUN 01 NOV",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
-      "source": "Birds of Poole Harbour",
-      "category": "other",
-      "distance_miles": 0.2
-    }
-  ],
-  "reserves": [
     {
       "icon": "🐦",
       "title": "IDENTIFYING BIRDS BY SIGHT AND SOUND",
@@ -69,20 +41,9 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 19.7
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "MON 26 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
@@ -134,14 +95,53 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 19.7
+    },
+    {
+      "icon": "🐦",
+      "title": "KINGCOMBE VISITOR CENTRE",
+      "location": "Dorchester",
+      "date": "WED 28 OCT",
+      "time": "10:30am - 12:00pm",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/habitats/wetlands",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 19.7
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "WED 28 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "THU 29 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
     {
       "name": "Birds of Poole Harbour",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/",
-      "status": "ok",
-      "events_found": 10
+      "status": "empty",
+      "events_found": 0
     },
     {
       "name": "National Trust Brownsea",
@@ -153,19 +153,19 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 19
+      "events_found": 18
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 18
+      "events_found": 15
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 19
     },
     {
       "name": "Swanage Railway",
