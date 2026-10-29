@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -17,6 +17,19 @@
       "distance_miles": 24.0
     },
     {
+      "icon": "🐦",
+      "title": "WINTER SAFARI CRUISES",
+      "location": "Poole Quay",
+      "date": "SUN 01 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-safari-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
+    },
+    {
       "icon": "🦉",
       "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
       "location": "Chesil",
@@ -28,7 +41,9 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
       "title": "WILD WETLAND BIRD WALK",
@@ -41,9 +56,7 @@
       "source": "National Trust Brownsea",
       "category": "wildlife",
       "distance_miles": 1.7
-    }
-  ],
-  "reserves": [
+    },
     {
       "icon": "🐦",
       "title": "IDENTIFYING BIRDS BY SIGHT AND SOUND",
@@ -71,62 +84,10 @@
       "distance_miles": 19.7
     },
     {
-      "icon": "🦉",
-      "title": "OWLS AND OWL PELLETS AT LORTON MEADOWS",
-      "location": "Lorton Meadows",
-      "date": "WED 28 OCT",
-      "time": "10:00am - 11:30am",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-28-owls-and-owl-pellets-lorton-meadows",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 22.0
-    },
-    {
-      "icon": "🦉",
-      "title": "LORTON MEADOWS CONSERVATION CENTRE",
-      "location": "Lorton Meadows",
-      "date": "WED 28 OCT",
-      "time": "10:00am - 11:30am",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/lorton",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 22.0
-    },
-    {
-      "icon": "🐦",
-      "title": "WILLOW BIRD FEEDER FAMILY ACTIVITY",
-      "location": "Dorchester",
-      "date": "WED 28 OCT",
-      "time": "10:30am - 12:00pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-10-28-willow-bird-feeder-family-activity",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 19.7
-    },
-    {
-      "icon": "🐦",
-      "title": "KINGCOMBE VISITOR CENTRE",
-      "location": "Dorchester",
-      "date": "WED 28 OCT",
-      "time": "10:30am - 12:00pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/habitats/wetlands",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 19.7
-    },
-    {
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
       "location": "Durlston Country Park",
-      "date": "WED 28 OCT",
+      "date": "THU 29 OCT",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
@@ -134,14 +95,53 @@
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "FRI 30 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "SAT 31 OCT",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐬",
+      "title": "SEA WATCH AT PORTLAND BILL",
+      "location": "Portland",
+      "date": "THU 05 NOV",
+      "time": "10:00am - 12:00pm",
+      "why": "Dolphins; strong long-lens subject.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-11-05-sea-watch-portland-bill",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 23.1
     }
   ],
   "source_health": [
     {
       "name": "Birds of Poole Harbour",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/",
-      "status": "empty",
-      "events_found": 0
+      "status": "ok",
+      "events_found": 9
     },
     {
       "name": "National Trust Brownsea",
@@ -153,13 +153,13 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 18
+      "events_found": 16
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 12
+      "events_found": 9
     },
     {
       "name": "Compton Abbas Airfield",
