@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,6 +30,21 @@
       "distance_miles": 0.2
     },
     {
+      "icon": "📷",
+      "title": "CURRENT AND UPCOMING EVENTS",
+      "location": "Durlston Country Park",
+      "date": "SAT 31 OCT",
+      "time": "10:00 - 15:00",
+      "why": "Photography-focused event.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.durlston.co.uk/userfiles/files/Durlston-Events_Oct26-Apr27.pdf",
+      "source": "Durlston Country Park",
+      "category": "photography",
+      "distance_miles": 8.3
+    }
+  ],
+  "reserves": [
+    {
       "icon": "🦉",
       "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
       "location": "Chesil",
@@ -41,9 +56,7 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    }
-  ],
-  "reserves": [
+    },
     {
       "icon": "🦉",
       "title": "WILD WETLAND BIRD WALK",
@@ -87,19 +100,6 @@
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
       "location": "Durlston Country Park",
-      "date": "FRI 30 OCT",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
       "date": "SAT 31 OCT",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
@@ -124,14 +124,14 @@
     },
     {
       "icon": "🐦",
-      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
-      "location": "Upton Country Park",
-      "date": "WED 04 NOV",
+      "title": "CURLEWS, COFFEE AND CAKE AT RSPB ARNE",
+      "location": "RSPB Arne Nature Reserve",
+      "date": "SAT 31 OCT",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
-      "source": "Birds of Poole Harbour",
+      "url": "https://www.visit-dorset.com/event/curlews-coffee-and-cake-at-rspb-arne/405692301/",
+      "source": "Visit Dorset - Nature",
       "category": "wildlife",
       "distance_miles": 2.7
     }
@@ -153,7 +153,7 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 17
+      "events_found": 16
     },
     {
       "name": "Durlston Country Park",
@@ -165,7 +165,7 @@
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 19
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
@@ -183,7 +183,7 @@
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
       "status": "ok",
-      "events_found": 17
+      "events_found": 16
     },
     {
       "name": "Visit Dorset - Art",
