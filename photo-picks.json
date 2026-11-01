@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,21 +30,6 @@
       "distance_miles": 0.2
     },
     {
-      "icon": "📷",
-      "title": "CURRENT AND UPCOMING EVENTS",
-      "location": "Durlston Country Park",
-      "date": "SAT 31 OCT",
-      "time": "10:00 - 15:00",
-      "why": "Photography-focused event.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.durlston.co.uk/userfiles/files/Durlston-Events_Oct26-Apr27.pdf",
-      "source": "Durlston Country Park",
-      "category": "photography",
-      "distance_miles": 8.3
-    }
-  ],
-  "reserves": [
-    {
       "icon": "🦉",
       "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
       "location": "Chesil",
@@ -56,20 +41,9 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    },
-    {
-      "icon": "🦉",
-      "title": "WILD WETLAND BIRD WALK",
-      "location": "Brownsea Island",
-      "date": "SAT 31 OCT",
-      "time": "10:00 to 12:30",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events/ceccd294-5d59-4df3-b5de-eb72e07728a4",
-      "source": "National Trust Brownsea",
-      "category": "wildlife",
-      "distance_miles": 1.7
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🐦",
       "title": "IDENTIFYING BIRDS BY SIGHT AND SOUND",
@@ -100,7 +74,46 @@
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
       "location": "Durlston Country Park",
-      "date": "SAT 31 OCT",
+      "date": "SUN 01 NOV",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "MON 02 NOV",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "TUE 03 NOV",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "WED 04 NOV",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
@@ -121,19 +134,6 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 23.1
-    },
-    {
-      "icon": "🐦",
-      "title": "CURLEWS, COFFEE AND CAKE AT RSPB ARNE",
-      "location": "RSPB Arne Nature Reserve",
-      "date": "SAT 31 OCT",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.visit-dorset.com/event/curlews-coffee-and-cake-at-rspb-arne/405692301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": 2.7
     }
   ],
   "source_health": [
@@ -147,7 +147,7 @@
       "name": "National Trust Brownsea",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
       "status": "ok",
-      "events_found": 6
+      "events_found": 5
     },
     {
       "name": "Dorset Wildlife Trust",
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 6
+      "events_found": 40
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 22
     },
     {
       "name": "Swanage Railway",
@@ -183,7 +183,7 @@
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
       "status": "ok",
-      "events_found": 16
+      "events_found": 15
     },
     {
       "name": "Visit Dorset - Art",
