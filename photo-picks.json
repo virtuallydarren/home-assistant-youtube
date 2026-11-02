@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "SUN 01 NOV",
+      "date": "SAT 07 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -74,19 +74,6 @@
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
       "location": "Durlston Country Park",
-      "date": "SUN 01 NOV",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
       "date": "MON 02 NOV",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
@@ -134,6 +121,19 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 23.1
+    },
+    {
+      "icon": "🐦",
+      "title": "MIRACLE OF MIGRATION EXHIBITION",
+      "location": "Durlston Country Park",
+      "date": "THU 05 NOV",
+      "time": "10:00 - 17:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -165,7 +165,7 @@
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 22
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
@@ -177,7 +177,7 @@
       "name": "The Tank Museum",
       "url": "https://tankmuseum.org/events/",
       "status": "ok",
-      "events_found": 14
+      "events_found": 13
     },
     {
       "name": "Visit Dorset - Nature",
