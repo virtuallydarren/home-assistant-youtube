@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -74,19 +74,6 @@
       "icon": "🐦",
       "title": "MIRACLE OF MIGRATION EXHIBITION",
       "location": "Durlston Country Park",
-      "date": "TUE 03 NOV",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
       "date": "WED 04 NOV",
       "time": "10:00 - 17:00",
       "why": "Visually strong event with good photography potential.",
@@ -134,6 +121,19 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 23.1
+    },
+    {
+      "icon": "🐦",
+      "title": "LOW TIDE CRUISES",
+      "location": "Poole Quay",
+      "date": "THU 05 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
     }
   ],
   "source_health": [
