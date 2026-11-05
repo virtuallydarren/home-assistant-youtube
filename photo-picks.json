@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,6 +30,21 @@
       "distance_miles": 0.2
     },
     {
+      "icon": "📸",
+      "title": "INSIDE THE CHIEFTAIN TANK TOUR",
+      "location": "Bovington",
+      "date": "SAT 21 NOV",
+      "time": "",
+      "why": "Historic vehicle/action subject with strong photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://tankmuseum.org/events/inside-the-chieftain-tank-tour",
+      "source": "The Tank Museum",
+      "category": "heritage",
+      "distance_miles": 10.9
+    }
+  ],
+  "reserves": [
+    {
       "icon": "🦉",
       "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
       "location": "Chesil",
@@ -41,47 +56,6 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    }
-  ],
-  "reserves": [
-    {
-      "icon": "🐦",
-      "title": "IDENTIFYING BIRDS BY SIGHT AND SOUND",
-      "location": "Dorchester",
-      "date": "WED 04 NOV",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/node/5231",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 19.7
-    },
-    {
-      "icon": "🐦",
-      "title": "KINGCOMBE VISITOR CENTRE",
-      "location": "Dorchester",
-      "date": "WED 04 NOV",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/nature-reserves/kingcombe-visitor-centre",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 19.7
-    },
-    {
-      "icon": "🐦",
-      "title": "MIRACLE OF MIGRATION EXHIBITION",
-      "location": "Durlston Country Park",
-      "date": "WED 04 NOV",
-      "time": "10:00 - 17:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
     },
     {
       "icon": "🐬",
@@ -134,6 +108,32 @@
       "source": "Birds of Poole Harbour",
       "category": "other",
       "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "DORSET BIRD DAY",
+      "location": "Poole Harbour",
+      "date": "SAT 20 FEB",
+      "time": "10:00 am - 4:30 pm",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/dorset-bird-conference",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 1.5
+    },
+    {
+      "icon": "🐦",
+      "title": "WELLIES AND WILDLIFE GUIDED WALK",
+      "location": "Durlston Country Park",
+      "date": "WED 18 NOV",
+      "time": "14:00 - 15:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
     }
   ],
   "source_health": [
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 40
+      "events_found": 38
     },
     {
       "name": "Compton Abbas Airfield",
@@ -182,20 +182,23 @@
     {
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
-      "status": "ok",
-      "events_found": 15
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/nature-events/"
     },
     {
       "name": "Visit Dorset - Art",
       "url": "https://www.visit-dorset.com/whats-on/art-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/art-events/"
     },
     {
       "name": "Visit Dorset - Sport",
       "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/sporting-events/"
     }
   ],
   "sources": [
