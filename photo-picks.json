@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "SAT 07 NOV",
+      "date": "TUE 10 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -91,7 +91,7 @@
       "time": "10:00am - 4:00pm",
       "why": "Photography-focused event.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/index%2ephp/wildchesilcentre",
+      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 36
+      "events_found": 35
     },
     {
       "name": "Compton Abbas Airfield",
@@ -177,7 +177,7 @@
       "name": "The Tank Museum",
       "url": "https://tankmuseum.org/events/",
       "status": "ok",
-      "events_found": 13
+      "events_found": 12
     },
     {
       "name": "Visit Dorset - Nature",
