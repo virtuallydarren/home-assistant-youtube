@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -165,7 +165,7 @@
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 24
     },
     {
       "name": "Swanage Railway",
