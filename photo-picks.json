@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -45,6 +45,19 @@
   ],
   "reserves": [
     {
+      "icon": "🐦",
+      "title": "WELLIES AND WILDLIFE GUIDED WALK",
+      "location": "Durlston Country Park",
+      "date": "WED 18 NOV",
+      "time": "14:00 - 15:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
       "icon": "🐬",
       "title": "SEA WATCH AT PORTLAND BILL",
       "location": "Portland",
@@ -78,7 +91,7 @@
       "time": "10:00am - 4:00pm",
       "why": "Photography-focused event.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/index%2Ephp/wildchesilcentre",
+      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
@@ -108,19 +121,6 @@
       "source": "Birds of Poole Harbour",
       "category": "wildlife",
       "distance_miles": 1.5
-    },
-    {
-      "icon": "🐦",
-      "title": "WELLIES AND WILDLIFE GUIDED WALK",
-      "location": "Durlston Country Park",
-      "date": "WED 18 NOV",
-      "time": "14:00 - 15:00",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 8.3
     },
     {
       "icon": "📸",
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 33
+      "events_found": 32
     },
     {
       "name": "Compton Abbas Airfield",
