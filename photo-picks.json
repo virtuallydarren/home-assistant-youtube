@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -98,16 +98,16 @@
     },
     {
       "icon": "🐦",
-      "title": "INTRO TO URBAN BIRDING: POOLE QUAY",
-      "location": "Poole Quay",
-      "date": "FRI 13 NOV",
+      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
+      "location": "Upton Country Park",
+      "date": "FRI 20 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/urban-birding",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
       "source": "Birds of Poole Harbour",
       "category": "wildlife",
-      "distance_miles": 0.2
+      "distance_miles": 2.7
     },
     {
       "icon": "🐦",
@@ -141,7 +141,7 @@
       "name": "Birds of Poole Harbour",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/",
       "status": "ok",
-      "events_found": 12
+      "events_found": 13
     },
     {
       "name": "National Trust Brownsea",
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 30
+      "events_found": 29
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 24
     },
     {
       "name": "Swanage Railway",
@@ -177,7 +177,7 @@
       "name": "The Tank Museum",
       "url": "https://tankmuseum.org/events/",
       "status": "ok",
-      "events_found": 12
+      "events_found": 11
     },
     {
       "name": "Visit Dorset - Nature",
