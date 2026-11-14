@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "SAT 14 NOV",
+      "date": "SUN 15 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -56,6 +56,19 @@
       "source": "Durlston Country Park",
       "category": "wildlife",
       "distance_miles": 8.3
+    },
+    {
+      "icon": "📸",
+      "title": "“THE TANKS HAVE DONE MARVELS”: THE 110TH ANNIVERSARY SEMINAR",
+      "location": "Bovington",
+      "date": "SAT 21 NOV",
+      "time": "",
+      "why": "Historic vehicle/action subject with strong photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://tankmuseum.org/110-anniversary",
+      "source": "The Tank Museum",
+      "category": "heritage",
+      "distance_miles": 10.9
     },
     {
       "icon": "🐬",
@@ -111,29 +124,16 @@
     },
     {
       "icon": "🐦",
-      "title": "DORSET BIRD DAY",
-      "location": "Poole Harbour",
-      "date": "SAT 20 FEB",
-      "time": "10:00 am - 4:30 pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/dorset-bird-conference",
-      "source": "Birds of Poole Harbour",
-      "category": "wildlife",
-      "distance_miles": 1.5
-    },
-    {
-      "icon": "📸",
-      "title": "“THE TANKS HAVE DONE MARVELS”: THE 110TH ANNIVERSARY SEMINAR",
-      "location": "Bovington",
+      "title": "LOW TIDE CRUISES",
+      "location": "Poole Quay",
       "date": "SAT 21 NOV",
       "time": "",
-      "why": "Historic vehicle/action subject with strong photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://tankmuseum.org/110-anniversary",
-      "source": "The Tank Museum",
-      "category": "heritage",
-      "distance_miles": 10.9
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
     }
   ],
   "source_health": [
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 29
+      "events_found": 27
     },
     {
       "name": "Compton Abbas Airfield",
@@ -177,7 +177,7 @@
       "name": "The Tank Museum",
       "url": "https://tankmuseum.org/events/",
       "status": "ok",
-      "events_found": 11
+      "events_found": 12
     },
     {
       "name": "Visit Dorset - Nature",
