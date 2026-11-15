@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "SUN 15 NOV",
+      "date": "FRI 20 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -153,19 +153,19 @@
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
       "status": "ok",
-      "events_found": 15
+      "events_found": 13
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 27
+      "events_found": 24
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 24
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
