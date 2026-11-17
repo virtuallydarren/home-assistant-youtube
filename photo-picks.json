@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 23
+      "events_found": 22
     },
     {
       "name": "Compton Abbas Airfield",
