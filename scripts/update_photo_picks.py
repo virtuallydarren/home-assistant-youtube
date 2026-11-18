@@ -755,7 +755,7 @@ def main():
     # Keep a reserve pool of the ten strongest unique candidates.
     reserve_pool = ranked[:10]
 
-    # Prefer category diversity in the three dashboard slots. First take the
+    # Prefer category diversity in the four dashboard slots. First take the
     # strongest event from distinct categories, then fill any remaining slots
     # purely by score.
     picks_events = []
@@ -773,10 +773,10 @@ def main():
             picks_events.append(event)
             used_categories.add(category)
             used_keys.add(key)
-        if len(picks_events) == 3:
+        if len(picks_events) == 4:
             break
 
-    if len(picks_events) < 3:
+    if len(picks_events) < 4:
         for event in reserve_pool:
             key = (
                 normalize_title(event.get("title")),
@@ -787,7 +787,7 @@ def main():
                 continue
             picks_events.append(event)
             used_keys.add(key)
-            if len(picks_events) == 3:
+            if len(picks_events) == 4:
                 break
 
     picks = [format_pick(event) for event in picks_events]
