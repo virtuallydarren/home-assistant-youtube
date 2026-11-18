@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -14,7 +14,7 @@
       "url": "https://www.birdsofpooleharbourbookings.co.uk/event/osprey-cruises-2027",
       "source": "Birds of Poole Harbour",
       "category": "wildlife",
-      "distance_miles": 0.0
+      "distance_miles": 0
     },
     {
       "icon": "🐦",
@@ -41,6 +41,19 @@
       "source": "The Tank Museum",
       "category": "heritage",
       "distance_miles": 10.9
+    },
+    {
+      "icon": "🐦",
+      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
+      "location": "Upton Country Park",
+      "date": "FRI 20 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 2.7
     }
   ],
   "reserves": [
@@ -94,7 +107,7 @@
       "url": "https://www.dorsetwildlifetrust.org.uk/events/2027-01-14-wildlife-photography-exhibition",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
-      "distance_miles": 24.0
+      "distance_miles": 24
     },
     {
       "icon": "📷",
@@ -107,20 +120,7 @@
       "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
-      "distance_miles": 24.0
-    },
-    {
-      "icon": "🐦",
-      "title": "INTRO TO URBAN BIRDING: HOLES BAY",
-      "location": "Upton Country Park",
-      "date": "FRI 20 NOV",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/intro-to-urban-birding-bay-holes-2026",
-      "source": "Birds of Poole Harbour",
-      "category": "wildlife",
-      "distance_miles": 2.7
+      "distance_miles": 24
     },
     {
       "icon": "🐦",
