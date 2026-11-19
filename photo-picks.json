@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -71,17 +71,17 @@
       "distance_miles": 24.0
     },
     {
-      "icon": "🐦",
-      "title": "WELLIES AND WILDLIFE GUIDED WALK",
-      "location": "Durlston Country Park",
-      "date": "WED 18 NOV",
-      "time": "14:00 - 15:00",
-      "why": "Visually strong event with good photography potential.",
+      "icon": "🐬",
+      "title": "SEA WATCH AT PORTLAND BILL",
+      "location": "Portland",
+      "date": "THU 10 DEC",
+      "time": "10:00am - 12:00pm",
+      "why": "Dolphins; strong long-lens subject.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-10-sea-watch-portland-bill",
+      "source": "Dorset Wildlife Trust",
       "category": "wildlife",
-      "distance_miles": 8.3
+      "distance_miles": 23.1
     },
     {
       "icon": "📸",
@@ -97,17 +97,17 @@
       "distance_miles": 10.9
     },
     {
-      "icon": "🐬",
-      "title": "SEA WATCH AT PORTLAND BILL",
-      "location": "Portland",
-      "date": "THU 10 DEC",
-      "time": "10:00am - 12:00pm",
-      "why": "Dolphins; strong long-lens subject.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-10-sea-watch-portland-bill",
-      "source": "Dorset Wildlife Trust",
+      "icon": "🦉",
+      "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
+      "location": "Dorset",
+      "date": "SAT 28 NOV",
+      "time": "",
+      "why": "Owls; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.visit-dorset.com/event/dorset-christmas-festival-pull-a-pine/404362301/",
+      "source": "Visit Dorset - Nature",
       "category": "wildlife",
-      "distance_miles": 23.1
+      "distance_miles": null
     },
     {
       "icon": "🐦",
@@ -130,7 +130,7 @@
       "time": "12:00pm - 1:30pm",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
+      "url": "https://www.dorsetwildlifetrust.org.uk/index%2ephp/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 21
+      "events_found": 19
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 25
     },
     {
       "name": "Swanage Railway",
