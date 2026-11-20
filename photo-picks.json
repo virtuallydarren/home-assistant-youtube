@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -130,7 +130,7 @@
       "time": "12:00pm - 1:30pm",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/index%2ephp/wildchesilcentre",
+      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 19
+      "events_found": 18
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 25
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
