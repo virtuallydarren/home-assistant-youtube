@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "FRI 20 NOV",
+      "date": "SAT 28 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -43,6 +43,21 @@
       "distance_miles": 10.9
     },
     {
+      "icon": "🦉",
+      "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
+      "location": "Dorset",
+      "date": "SAT 28 NOV",
+      "time": "",
+      "why": "Owls; strong long-lens subject.",
+      "lens_fit": "Excellent for 600mm",
+      "url": "https://www.visit-dorset.com/event/dorset-christmas-festival-pull-a-pine/404362301/",
+      "source": "Visit Dorset - Nature",
+      "category": "wildlife",
+      "distance_miles": null
+    }
+  ],
+  "reserves": [
+    {
       "icon": "🐦",
       "title": "BUDDING BIRDERS FREE WINTER BIRD WALK",
       "location": "Chesil",
@@ -54,9 +69,7 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    }
-  ],
-  "reserves": [
+    },
     {
       "icon": "🐦",
       "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
@@ -97,17 +110,17 @@
       "distance_miles": 10.9
     },
     {
-      "icon": "🦉",
-      "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
-      "location": "Dorset",
+      "icon": "🐦",
+      "title": "PARK TO PIER GUIDED WALK",
+      "location": "Swanage",
       "date": "SAT 28 NOV",
-      "time": "",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.visit-dorset.com/event/dorset-christmas-festival-pull-a-pine/404362301/",
-      "source": "Visit Dorset - Nature",
+      "time": "10:30 - 12:30",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
       "category": "wildlife",
-      "distance_miles": null
+      "distance_miles": 7.4
     },
     {
       "icon": "🐦",
@@ -118,19 +131,6 @@
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
       "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-28-chesil-winter-bird-walk",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 24.0
-    },
-    {
-      "icon": "🐦",
-      "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
-      "location": "Chesil",
-      "date": "MON 28 DEC",
-      "time": "12:00pm - 1:30pm",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 18
+      "events_found": 17
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 26
     },
     {
       "name": "Swanage Railway",
