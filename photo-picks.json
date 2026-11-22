@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,18 +30,33 @@
       "distance_miles": 0.2
     },
     {
-      "icon": "📸",
-      "title": "INSIDE THE CHIEFTAIN TANK TOUR",
-      "location": "Bovington",
-      "date": "SAT 21 NOV",
+      "icon": "📷",
+      "title": "FLOATING WORLDS PHOTOGRAPHY EXHIBITION",
+      "location": "Christchurch",
+      "date": "TUE 24 NOV",
       "time": "",
-      "why": "Historic vehicle/action subject with strong photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://tankmuseum.org/events/inside-the-chieftain-tank-tour",
-      "source": "The Tank Museum",
-      "category": "heritage",
-      "distance_miles": 10.9
+      "why": "Photography-focused event.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.visit-dorset.com/event/floating-worlds-photography-exhibition/407481301/",
+      "source": "Visit Dorset - Art",
+      "category": "photography",
+      "distance_miles": 9.1
     },
+    {
+      "icon": "🐦",
+      "title": "EVENTS AT DURLSTON COUNTRY PARK: PARK TO PIER",
+      "location": "Durlston Country Park National Nature Reserve",
+      "date": "SAT 28 NOV",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.visit-dorset.com/event/events-at-durlston-country-park%3a-park-to-pier/206980301/",
+      "source": "Visit Dorset - Nature",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
       "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
@@ -54,9 +69,7 @@
       "source": "Visit Dorset - Nature",
       "category": "wildlife",
       "distance_miles": null
-    }
-  ],
-  "reserves": [
+    },
     {
       "icon": "🐦",
       "title": "BUDDING BIRDERS FREE WINTER BIRD WALK",
@@ -95,19 +108,6 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 23.1
-    },
-    {
-      "icon": "📸",
-      "title": "“THE TANKS HAVE DONE MARVELS”: THE 110TH ANNIVERSARY SEMINAR",
-      "location": "Bovington",
-      "date": "SAT 21 NOV",
-      "time": "",
-      "why": "Historic vehicle/action subject with strong photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://tankmuseum.org/110-anniversary",
-      "source": "The Tank Museum",
-      "category": "heritage",
-      "distance_miles": 10.9
     },
     {
       "icon": "🐦",
@@ -159,7 +159,7 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 17
+      "events_found": 15
     },
     {
       "name": "Compton Abbas Airfield",
