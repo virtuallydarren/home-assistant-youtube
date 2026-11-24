@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -30,47 +30,6 @@
       "distance_miles": 0.2
     },
     {
-      "icon": "📷",
-      "title": "FLOATING WORLDS PHOTOGRAPHY EXHIBITION",
-      "location": "Christchurch",
-      "date": "TUE 24 NOV",
-      "time": "",
-      "why": "Photography-focused event.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.visit-dorset.com/event/floating-worlds-photography-exhibition/407481301/",
-      "source": "Visit Dorset - Art",
-      "category": "photography",
-      "distance_miles": 9.1
-    },
-    {
-      "icon": "🐦",
-      "title": "EVENTS AT DURLSTON COUNTRY PARK: PARK TO PIER",
-      "location": "Durlston Country Park National Nature Reserve",
-      "date": "SAT 28 NOV",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.visit-dorset.com/event/events-at-durlston-country-park%3a-park-to-pier/206980301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": 8.3
-    }
-  ],
-  "reserves": [
-    {
-      "icon": "🦉",
-      "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
-      "location": "Dorset",
-      "date": "SAT 28 NOV",
-      "time": "",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.visit-dorset.com/event/dorset-christmas-festival-pull-a-pine/404362301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": null
-    },
-    {
       "icon": "🐦",
       "title": "BUDDING BIRDERS FREE WINTER BIRD WALK",
       "location": "Chesil",
@@ -95,7 +54,9 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🐬",
       "title": "SEA WATCH AT PORTLAND BILL",
@@ -134,6 +95,45 @@
       "source": "Dorset Wildlife Trust",
       "category": "wildlife",
       "distance_miles": 24.0
+    },
+    {
+      "icon": "🐦",
+      "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
+      "location": "Chesil",
+      "date": "MON 28 DEC",
+      "time": "12:00pm - 1:30pm",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 24.0
+    },
+    {
+      "icon": "🐬",
+      "title": "SEA WATCH AT PORTLAND BILL",
+      "location": "Portland",
+      "date": "THU 07 JAN",
+      "time": "10:00am - 12:00pm",
+      "why": "Dolphins; strong long-lens subject.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2027-01-07-sea-watch-portland-bill",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 23.1
+    },
+    {
+      "icon": "📷",
+      "title": "WILDLIFE PHOTOGRAPHY EXHIBITION",
+      "location": "Chesil",
+      "date": "THU 14 JAN",
+      "time": "10:00am - 4:00pm",
+      "why": "Photography-focused event.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.dorsetwildlifetrust.org.uk/events/2027-01-14-wildlife-photography-exhibition",
+      "source": "Dorset Wildlife Trust",
+      "category": "wildlife",
+      "distance_miles": 24.0
     }
   ],
   "source_health": [
@@ -159,13 +159,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 12
+      "events_found": 11
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 26
     },
     {
       "name": "Swanage Railway",
@@ -182,20 +182,23 @@
     {
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
-      "status": "ok",
-      "events_found": 15
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/nature-events/"
     },
     {
       "name": "Visit Dorset - Art",
       "url": "https://www.visit-dorset.com/whats-on/art-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/art-events/"
     },
     {
       "name": "Visit Dorset - Sport",
       "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/sporting-events/"
     }
   ],
   "sources": [
