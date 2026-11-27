@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -7,7 +7,7 @@
       "icon": "🐦",
       "title": "POOLE HARBOUR OSPREY CRUISES 2027",
       "location": "Poole",
-      "date": "WED 04 AUG",
+      "date": "SUN 12 SEP",
       "time": "",
       "why": "Ospreys; strong long-lens subject.",
       "lens_fit": "Excellent for 600mm",
@@ -30,6 +30,19 @@
       "distance_miles": 0.2
     },
     {
+      "icon": "📸",
+      "title": "THE TANK STORY",
+      "location": "Bovington",
+      "date": "SAT 28 NOV",
+      "time": "",
+      "why": "Historic vehicle/action subject with strong photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://tankmuseum.org/events/tank-story-london",
+      "source": "The Tank Museum",
+      "category": "heritage",
+      "distance_miles": 10.9
+    },
+    {
       "icon": "🐦",
       "title": "EVENTS AT DURLSTON COUNTRY PARK: PARK TO PIER",
       "location": "Durlston Country Park National Nature Reserve",
@@ -41,7 +54,9 @@
       "source": "Visit Dorset - Nature",
       "category": "wildlife",
       "distance_miles": 8.3
-    },
+    }
+  ],
+  "reserves": [
     {
       "icon": "🦉",
       "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
@@ -54,47 +69,6 @@
       "source": "Visit Dorset - Nature",
       "category": "wildlife",
       "distance_miles": null
-    }
-  ],
-  "reserves": [
-    {
-      "icon": "🐦",
-      "title": "BUDDING BIRDERS FREE WINTER BIRD WALK",
-      "location": "Chesil",
-      "date": "WED 09 DEC",
-      "time": "9:00am - 10:00am",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-09-budding-birders-free-winter-bird-walk",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 24.0
-    },
-    {
-      "icon": "🐦",
-      "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
-      "location": "Chesil",
-      "date": "WED 09 DEC",
-      "time": "9:00am - 10:00am",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 24.0
-    },
-    {
-      "icon": "🐬",
-      "title": "SEA WATCH AT PORTLAND BILL",
-      "location": "Portland",
-      "date": "THU 10 DEC",
-      "time": "10:00am - 12:00pm",
-      "why": "Dolphins; strong long-lens subject.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-10-sea-watch-portland-bill",
-      "source": "Dorset Wildlife Trust",
-      "category": "wildlife",
-      "distance_miles": 23.1
     },
     {
       "icon": "🐦",
@@ -111,29 +85,55 @@
     },
     {
       "icon": "🐦",
-      "title": "CHESIL WINTER BIRD WALK",
-      "location": "Chesil",
-      "date": "MON 28 DEC",
-      "time": "12:00pm - 1:30pm",
+      "title": "DORSET BIRD DAY",
+      "location": "Poole Harbour",
+      "date": "SAT 20 FEB",
+      "time": "10:00 am to 4:30 pm",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/events/2026-12-28-chesil-winter-bird-walk",
-      "source": "Dorset Wildlife Trust",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/dorset-bird-conference",
+      "source": "Birds of Poole Harbour",
       "category": "wildlife",
-      "distance_miles": 24.0
+      "distance_miles": 1.5
     },
     {
       "icon": "🐦",
-      "title": "THE FINE FOUNDATION WILD CHESIL CENTRE",
-      "location": "Chesil",
-      "date": "MON 28 DEC",
-      "time": "12:00pm - 1:30pm",
+      "title": "LOW TIDE CRUISES",
+      "location": "Poole Quay",
+      "date": "SAT 05 DEC",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "WINTER BIRD ID COURSE: STUDLAND",
+      "location": "Studland",
+      "date": "MON 07 DEC",
+      "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
-      "url": "https://www.dorsetwildlifetrust.org.uk/wildchesilcentre",
-      "source": "Dorset Wildlife Trust",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/winter-bird-id-course-2026",
+      "source": "Birds of Poole Harbour",
       "category": "wildlife",
-      "distance_miles": 24.0
+      "distance_miles": 5.3
+    },
+    {
+      "icon": "🐦",
+      "title": "INTRO TO URBAN BIRDING: POOLE QUAY",
+      "location": "Poole Quay",
+      "date": "TUE 15 DEC",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/urban-birding",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
     }
   ],
   "source_health": [
@@ -147,25 +147,26 @@
       "name": "National Trust Brownsea",
       "url": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island/events",
       "status": "ok",
-      "events_found": 4
+      "events_found": 3
     },
     {
       "name": "Dorset Wildlife Trust",
       "url": "https://www.dorsetwildlifetrust.org.uk/events",
-      "status": "ok",
-      "events_found": 18
+      "status": "error",
+      "events_found": 0,
+      "error": "Exceeded 30 redirects."
     },
     {
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 9
+      "events_found": 8
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 23
+      "events_found": 26
     },
     {
       "name": "Swanage Railway",
