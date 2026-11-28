@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "area": "Poole/Dorset, UK",
   "radius_miles": 50,
   "picks": [
@@ -20,7 +20,7 @@
       "icon": "🐦",
       "title": "WINTER SAFARI CRUISES",
       "location": "Poole Quay",
-      "date": "SAT 28 NOV",
+      "date": "SUN 29 NOV",
       "time": "",
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Good long-lens opportunity",
@@ -44,45 +44,19 @@
     },
     {
       "icon": "🐦",
-      "title": "EVENTS AT DURLSTON COUNTRY PARK: PARK TO PIER",
-      "location": "Durlston Country Park National Nature Reserve",
-      "date": "SAT 28 NOV",
+      "title": "LOW TIDE CRUISES",
+      "location": "Poole Quay",
+      "date": "SAT 05 DEC",
       "time": "",
       "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.visit-dorset.com/event/events-at-durlston-country-park%3a-park-to-pier/206980301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": 8.3
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
+      "source": "Birds of Poole Harbour",
+      "category": "other",
+      "distance_miles": 0.2
     }
   ],
   "reserves": [
-    {
-      "icon": "🦉",
-      "title": "DORSET CHRISTMAS FESTIVAL - PULL A PINE",
-      "location": "Dorset",
-      "date": "SAT 28 NOV",
-      "time": "",
-      "why": "Owls; strong long-lens subject.",
-      "lens_fit": "Excellent for 600mm",
-      "url": "https://www.visit-dorset.com/event/dorset-christmas-festival-pull-a-pine/404362301/",
-      "source": "Visit Dorset - Nature",
-      "category": "wildlife",
-      "distance_miles": null
-    },
-    {
-      "icon": "🐦",
-      "title": "PARK TO PIER GUIDED WALK",
-      "location": "Swanage",
-      "date": "SAT 28 NOV",
-      "time": "10:30 - 12:30",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Very good for 600mm",
-      "url": "https://www.durlston.co.uk/events.aspx",
-      "source": "Durlston Country Park",
-      "category": "wildlife",
-      "distance_miles": 7.4
-    },
     {
       "icon": "🐦",
       "title": "DORSET BIRD DAY",
@@ -95,19 +69,6 @@
       "source": "Birds of Poole Harbour",
       "category": "wildlife",
       "distance_miles": 1.5
-    },
-    {
-      "icon": "🐦",
-      "title": "LOW TIDE CRUISES",
-      "location": "Poole Quay",
-      "date": "SAT 05 DEC",
-      "time": "",
-      "why": "Visually strong event with good photography potential.",
-      "lens_fit": "Good long-lens opportunity",
-      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/low-tide-cruises-2026",
-      "source": "Birds of Poole Harbour",
-      "category": "other",
-      "distance_miles": 0.2
     },
     {
       "icon": "🐦",
@@ -131,6 +92,45 @@
       "why": "Visually strong event with good photography potential.",
       "lens_fit": "Very good for 600mm",
       "url": "https://www.birdsofpooleharbourbookings.co.uk/event/urban-birding",
+      "source": "Birds of Poole Harbour",
+      "category": "wildlife",
+      "distance_miles": 0.2
+    },
+    {
+      "icon": "🐦",
+      "title": "REINDEER REPAIR SHOP",
+      "location": "Durlston Country Park",
+      "date": "SUN 29 NOV",
+      "time": "12:00 - 16:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.durlston.co.uk/events.aspx",
+      "source": "Durlston Country Park",
+      "category": "wildlife",
+      "distance_miles": 8.3
+    },
+    {
+      "icon": "🐦",
+      "title": "PARKRUN",
+      "location": "Compton Abbas Airfield, Ashmore, Nr. Salisbury, SP5 5AP",
+      "date": "SAT 28 NOV",
+      "time": "09:00",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Good long-lens opportunity",
+      "url": "https://www.comptonairfield.com/events/parkrun/2026-11-28/",
+      "source": "Compton Abbas Airfield",
+      "category": "other",
+      "distance_miles": 18.9
+    },
+    {
+      "icon": "🐦",
+      "title": "ACCESSIBLE BIRDWATCHING BOAT TRIPS FOR DISABLED PEOPLE",
+      "location": "Poole Quay",
+      "date": "THU 15 APR",
+      "time": "",
+      "why": "Visually strong event with good photography potential.",
+      "lens_fit": "Very good for 600mm",
+      "url": "https://www.birdsofpooleharbourbookings.co.uk/event/accessible-birdwatching-boat-trips-for-disabled-people",
       "source": "Birds of Poole Harbour",
       "category": "wildlife",
       "distance_miles": 0.2
@@ -160,13 +160,13 @@
       "name": "Durlston Country Park",
       "url": "https://www.durlston.co.uk/events.aspx",
       "status": "ok",
-      "events_found": 8
+      "events_found": 7
     },
     {
       "name": "Compton Abbas Airfield",
       "url": "https://www.comptonairfield.com/events/",
       "status": "ok",
-      "events_found": 26
+      "events_found": 23
     },
     {
       "name": "Swanage Railway",
@@ -183,20 +183,23 @@
     {
       "name": "Visit Dorset - Nature",
       "url": "https://www.visit-dorset.com/whats-on/nature-events/",
-      "status": "ok",
-      "events_found": 15
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/nature-events/"
     },
     {
       "name": "Visit Dorset - Art",
       "url": "https://www.visit-dorset.com/whats-on/art-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/art-events/"
     },
     {
       "name": "Visit Dorset - Sport",
       "url": "https://www.visit-dorset.com/whats-on/sporting-events/",
-      "status": "ok",
-      "events_found": 11
+      "status": "error",
+      "events_found": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.visit-dorset.com/whats-on/sporting-events/"
     }
   ],
   "sources": [
